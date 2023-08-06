@@ -1,0 +1,21 @@
+{
+    "swagger": "2.0",
+    "info": {
+      "version": "1.0.0",
+      "title": "Minha API Node.js"
+    },
+    "basePath": "/api",
+    "paths": {
+      "/users": {
+        "get": {
+          "summary": "Obter a lista de usuários",
+          "responses": {
+            "200": {
+              "description": "Lista de usuários"
+            }
+          }
+        }
+      }
+    }
+  }
+  
